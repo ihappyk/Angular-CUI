@@ -1,9 +1,12 @@
 {
   "$schema": "../../../../node_modules/ng-packagr/package.schema.json",
-  "name": "angularcui",
+  "name": "@angular-cui/library",
   "version": "0.0.1",
   "license": "MIT",
-  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ihappyk/Angular-CUI.git"
+  },
   "keywords": [
     "angular",
     "angular5",
@@ -20,6 +23,9 @@
       "entryFile": "index.ts"
     },
     "dest": "../../../../dist/angularcui"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 
 }
