@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../node_modules/ng-packagr/package.schema.json",
+  "name": "angularcui",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "angular",
+    "angular5",
+    "library",
+    "components",
+    "commonui"
+  ],
+  "peerDependencies": {
+    "@angular/common": "5.1.0",
+    "@angular/core": "5.1.0"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "index.ts"
+    },
+    "dest": "../../../../dist/angularcui"
+  }
+
+}
